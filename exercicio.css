@@ -58,8 +58,10 @@
  */
 
 .comecar,
-.parar {}
+.parar {
+  background-image: url("imgs/sprite-controles.png")
+}
 
-.comecar {}
-
-.parar {}
+.parar {
+  background-position: -24px;
+}
