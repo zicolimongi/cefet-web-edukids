@@ -1,7 +1,9 @@
 /* Exercício 1: Criar uma transição para quando o mouse estiver em cima dos
  * botões play/stop (para que o elemento se revele lentamente)
  */
- #controles ul {}
+ #controles ul {
+  transition: transform 600ms linear;
+ }
 
 /*
  * Exercício 2: Você deve implementar uma metáfora visual para cada um dos 4
